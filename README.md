@@ -3,6 +3,7 @@ Guarde seus interesses literários em um só lugar!
 📖 📚 📗 
 
 ### Badges
+vscode, html5, css3, js,bootstrap, ...
 
 ### Nome do Projeto
 Agenda Literária
