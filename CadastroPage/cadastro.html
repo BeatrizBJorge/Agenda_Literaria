@@ -1,23 +1,97 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cadastra-se</title>
-  <link rel="stylesheet" href="../CadastroPage/cadastro.css">
-  <link rel="stylesheet" href="../CadastroPage/cadMobile.css">
-  <script src="cadscript.js" defer></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastre-se</title>
+    <link rel="stylesheet" href="cadastro.css">
+    <link rel="stylesheet" href="cadMobile.css">
+    <script src="cadscript.js"></script>
 </head>
 <body>
-  <div class="cadastro">
-    <form action="">
-      <fieldset>
-        <legend>Cadastro</legend>
-        <p>Preencha o formulário e faça seu Cadastro!</p>
+
+    <main>
         
-      </fieldset>
-    </form>
-  </div>
-  
+        <div class="cadastro">
+
+            <form action="">
+                <fieldset>
+                    <legend>Cadastro</legend>
+
+                    <p>Preencha o Formulário e faça seu Cadastro!</p>
+
+                    <div class="row">
+                        <div class="col">
+                            <label for="">
+                                Nome completo: <br>
+                                <input type="text">
+                            </label>
+                        </div>
+                        <div class="col">
+                            <label for="">
+                                Data de nascimento: <br>
+                                <input type="date">
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <label for="">
+                                Nome de usuário: <br>
+                                <input type="text">
+                            </label>
+                        </div>
+                        <div class="col">
+                            <label for="">
+                                Endereço de e-mail: <br>
+                                <input type="email">
+                            </label>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col">
+                            <label for="" class="senha">
+                                Senha: <br>
+                                <input type="password" name="password" class="senha-olho">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
+                                    <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
+                                    <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"/>
+                                </svg>
+                            </label>
+                        </div>
+                        <div class="col">
+                            <label for="">
+                                Confirme sua Senha: <br>
+                                <input type="password" class="senha-olho">
+                                
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col">
+                            Você aceita nossos termos?<br>
+                            <label class="checkbox-container">Aceito os termos
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                            </label>
+                        </div>
+                    </div>
+        
+                    <div class="row">
+                        <div class="col">
+                            <button class="btncad">Enviar</button>
+                        </div>
+                    </div>
+
+                </fieldset>
+            </form>
+
+        </div>
+
+    </main>
+    
 </body>
 </html>
