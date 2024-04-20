@@ -17,7 +17,7 @@
         "id": 3,
         "nome": "O Mar sem Estrelas",
         "autor": "Erin Morgenstern",
-        "capa": "../ListaLivros/Capas/OMarSemEstrelas.png",
+        "capa": "../ListaLivros/Capas/OMarSemEstrelas.PNG",
         "LinkPage": "../LivrosPages/OMarSemEstrelas.html"
     },
     {
