@@ -27,4 +27,6 @@ Membros:
 - Beatriz Batista Jorge RA: 1754415
 
 ### Objetivo
-Nosso objetivo é criar um ambiente onde os leitores podem armazenar os livros que já foram lidos, o que estão lendo atualmente e sua lista de desejos para leituras futuras.  
+Nosso objetivo é criar um ambiente onde os leitores podem armazenar os livros que já foram lidos, o que estão lendo atualmente e sua lista de desejos para leituras futuras.   
+
+https://beatrizbjorge.github.io/Agenda_Literaria/
