@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="mainstyle.css">
+    <script src="mainpage.js" defer></script>
+</head>
+<body>
+    <header>
+    <!--Menu hamburguer e barra de pesquisa-->
+    <nav role="navigation">
+        <div id="menuToggle">
+            <input type="checkbox">
+
+            <span></span>
+            <span></span>
+            <span></span>
+            
+            <ul id="menu">
+                <a href="../mainPage/mainpage.html"><li class="pular">Inicio</li></a>
+                <a href="../DashboardPage/dashboardPage.html"><li>Dashboard</li></a>
+                <a href="#"><li>Info</li></a>
+                <a href="#"><li>Contact</li></a>
+                <a href="#"><li>Sobre nós</li></a>
+            </ul>
+        </div>
+    </nav>
+    </header>
+    <br><br>
+    <main>
+        <!--Pagina após o login-->
+        <br>
+        <div class="central">
+            
+            <h3>Bem vindo!</h3>
+            <h4 class="h4">Faça sua pesquisa com o nome do livro</h4>
+             <div class="box">
+                <div class="searchWrapper">
+                    <input 
+                    type="text"
+                    name="searchBar"
+                    id="searchBar"
+                    placeholder="Pesquise seu Livro"/>
+                </div>
+                <br><br>
+                <ul id="booksList"></ul>
+
+            </div>
+
+        </div>
+        <br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="../indexPage/index.html" class="back">Voltar</a>
+
+    </main>
+
+    <footer>
+
+    </footer>
+    
+    <script type="text/JavaScript" src="mainpage.js"></script>
+</body>
+</html>
