@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="cadastro.css">
     <link rel="stylesheet" href="cadMobile.css">
     <script src="cadscript.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
 
@@ -14,7 +15,7 @@
         
         <div class="cadastro">
 
-            <form action="">
+            <form action="" id="cadastroForm">
                 <fieldset>
                     <legend>Cadastro</legend>
 
@@ -24,13 +25,13 @@
                         <div class="col">
                             <label for="">
                                 Nome completo: <br>
-                                <input type="text">
+                                <input type="text" id="nomeCompleto" placeholder="Digite seu Nome">
                             </label>
                         </div>
                         <div class="col">
                             <label for="">
                                 Data de nascimento: <br>
-                                <input type="date">
+                                <input type="date" id="dataNascimento">
                             </label>
                         </div>
                     </div>
@@ -39,13 +40,13 @@
                         <div class="col">
                             <label for="">
                                 Nome de usuário: <br>
-                                <input type="text">
+                                <input type="text" id="username" placeholder="Digite um nome de usuario">
                             </label>
                         </div>
                         <div class="col">
                             <label for="">
                                 Endereço de e-mail: <br>
-                                <input type="email">
+                                <input type="email" id="email" placeholder="Digite seu email">
                             </label>
                         </div>
                     </div>
@@ -54,17 +55,14 @@
                         <div class="col">
                             <label for="" class="senha">
                                 Senha: <br>
-                                <input type="password" name="password" class="senha-olho">
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-eye-fill" viewBox="0 0 16 16">
-                                    <path d="M10.5 8a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0"/>
-                                    <path d="M0 8s3-5.5 8-5.5S16 8 16 8s-3 5.5-8 5.5S0 8 0 8m8 3.5a3.5 3.5 0 1 0 0-7 3.5 3.5 0 0 0 0 7"/>
-                                </svg>
+                                <input type="password" name="password" class="senha-olho" placeholder="Digite sua senha" id="senha">
+                                <i class="fa-solid fa-eye" onclick="togglePasswordVisibility()"></i>
                             </label>
                         </div>
                         <div class="col">
                             <label for="">
                                 Confirme sua Senha: <br>
-                                <input type="password" class="senha-olho">
+                                <input type="password" class="senha-olho" placeholder="Confirme sua senha" id="confirmarSenha">
                                 
                             </label>
                         </div>
