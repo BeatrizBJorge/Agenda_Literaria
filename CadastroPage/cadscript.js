@@ -23,19 +23,22 @@ document.getElementById("cadastroForm").addEventListener("submit", function(even
     var confirmarSenha = document.getElementById("confirmarSenha").value;
 
     //validacao do cadastro
-    if(nomeCompleto === "2000-01-25" && username === "Admin" && email === "alice@senhora.com" && senha === "admin1" && confirmarSenha === "admin1"){
-        alert("Cadastro bem-sucedido!");
-        window.location.replace("../mainPage/mainpage.html");
+    //validacao do cadastro
+    if (nomeCompleto === "isso é um exemplo" && dataNascimento === "2000-01-25" && username === "Admin" && email === "admin@exemplo.com" && senha === "admin1" && confirmarSenha === "admin1") {
+        swal("Cadastro bem-sucedido!", "Redirecionando ...", "success")
+            .then((value) => {
+                window.location.replace("../mainPage/mainpage.html");
+            });
+    } else {
+        swal("Por favor, preencha todos os campos corretamente!", "", "error");
     }
-    else{
-        alert("Por favor, preencha todos os campos corretamente!");
-    }
+    
 
 });
 
 
 // Olho para visibilidade de senha
-document.querySelector(".fa-eye").addEventListener("click", togglePasswordVisibility);
+document.querySelector(".fa-eye").addEventListener("click", togglePasswordVisibility());
 
 function togglePasswordVisibility(){
     var passwordInput = document.getElementById("senha");
@@ -52,21 +55,3 @@ function togglePasswordVisibility(){
     }
 
 }
-
-
-
-/*
-function togglePasswordVisibility() {
-    var passwordInput = document.getElementById("senha");
-    var passwordToggle = document.querySelector(".fa-eye");
-
-    if (passwordInput.type === "password") {
-        passwordInput.type = "text";
-        passwordToggle.classList.remove("fa-eye");
-        passwordToggle.classList.add("fa-eye-slash");
-    } else {
-        passwordInput.type = "password";
-        passwordToggle.classList.remove("fa-eye-slash");
-        passwordToggle.classList.add("fa-eye");
-    }
-}*/
