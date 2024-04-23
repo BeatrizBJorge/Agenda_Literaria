@@ -98,6 +98,28 @@ body{
 }
 
 
+/* Media query para dispositivos móveis */
+@media screen and (max-width: 600px) {
+    .cima {
+        grid-template-columns: 1fr; /* Altera a disposição das colunas para uma única coluna */
+        grid-template-areas: 'image' 'nome' 'autor'; /* Ajusta as áreas para se adaptarem à disposição de uma única coluna */
+        text-align: center; /* Centraliza o texto */
+    }
+
+    .cima > img {
+        margin: 0 auto; /* Centraliza a imagem */
+    }
+
+    .cima > h2, .cima > h3 {
+        margin: 10px auto; /* Centraliza os títulos */
+    }
+
+    .baixo {
+        grid-template-columns: 1fr; /* Altera a disposição das colunas para uma única coluna */
+        grid-template-areas: 'nomeSinopse' 'frase' 'sinopse'; /* Ajusta as áreas para se adaptarem à disposição de uma única coluna */
+        text-align: justify; /* Justifica o texto */
+    }
+}
 
 
 
