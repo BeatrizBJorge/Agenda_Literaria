@@ -62,8 +62,13 @@ ul li img{
     padding: 1px;
     box-shadow: 8px 8px 5px #444;
 }
-.lidos img, .lendo img, .listaDesejo img {
+.lidos img, .lendo img {
     width: 40%;
+    margin-top: 40px;
+    align-items: center;
+}
+.listaDesejo img{
+    width: 50%;
     margin-top: 40px;
     align-items: center;
 }
