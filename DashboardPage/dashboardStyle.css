@@ -196,14 +196,11 @@ ul li img{
 }
 /* Fim do menu toggle */
 
-
-/* Estilos padrão */
-
-/* Media query para dispositivos com largura máxima de 768px (exemplo de tablet) */
+/* Media query para dispositivos com largura máxima de 768px (tablet) */
 @media only screen and (max-width: 768px) {
     .central {
-        padding: 30px; /* Reduzir o padding */
-        max-width: 100%; /* Ajustar a largura máxima */
+        padding: 30px; 
+        max-width: 100%; 
     }
 
     /*.dash {
@@ -213,62 +210,62 @@ ul li img{
     }
     */
     .dash {
-        max-width: 100%; /* Define a largura máxima de cada dash para 100% */
-        margin-right: 0; /* Remove a margem direita para evitar que haja espaços vazios */
-        margin-bottom: 20px; /* Adiciona uma margem inferior para separar cada dash */
-        flex: 0 0 100%; /* Define a largura base de cada dash para 100% */
+        max-width: 90%; 
+        margin-right: 0; 
+        margin-bottom: 20px; 
+        flex: 0 0 100%; 
     }
 
     .dashboard {
-        flex-direction: column; /* Altera a direção do layout para empilhar os dashes verticalmente */
+        flex-direction: column; 
     }
 
     .dash h4 {
-        font-size: 18px; /* Reduzir o tamanho da fonte do título */
+        font-size: 18px; 
     }
 
     ul li img {
-        width: 100px; /* Reduzir o tamanho das imagens */
-        margin-top: 20px; /* Reduzir o espaçamento entre as imagens */
+        width: 100px; 
+        margin-top: 20px;
     }
 
     .lidos p,
     .lendo p,
     .listaDesejo p {
-        font-size: 14px; /* Reduzir o tamanho da fonte dos parágrafos */
+        font-size: 14px; 
     }
 
     .back {
-        font-size: 16px; /* Reduzir o tamanho da fonte do botão */
+        font-size: 16px; 
     }
 }
 
-/* Media query para dispositivos com largura máxima de 480px (exemplo de dispositivo móvel) */
+/* Media query para dispositivos com largura máxima de 480px (celular) */
 @media only screen and (max-width: 480px) {
     .central {
-        padding: 20px; /* Reduzir o padding */
+        padding: 20px;
     }
 
     .dash {
-        padding: 10px; /* Reduzir o padding */
+        padding: 10px; 
     }
 
     .dash h4 {
-        font-size: 16px; /* Reduzir ainda mais o tamanho da fonte do título */
+        font-size: 16px; 
     }
 
     ul li img {
-        width: 80px; /* Reduzir ainda mais o tamanho das imagens */
-        margin-top: 10px; /* Reduzir ainda mais o espaçamento entre as imagens */
+        width: 80px; 
+        margin-top: 10px; 
     }
 
     .lidos p,
     .lendo p,
     .listaDesejo p {
-        font-size: 12px; /* Reduzir ainda mais o tamanho da fonte dos parágrafos */
+        font-size: 12px;
     }
 
     .back {
-        font-size: 14px; /* Reduzir ainda mais o tamanho da fonte do botão */
+        font-size: 14px; 
     }
 }
