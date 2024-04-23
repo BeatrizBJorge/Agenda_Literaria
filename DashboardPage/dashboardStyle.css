@@ -206,10 +206,21 @@ ul li img{
         max-width: 100%; /* Ajustar a largura máxima */
     }
 
+    /*.dash {
+        max-width: 100%; /
+        margin: 0 auto 20px; 
+        padding: 20px;
+    }
+    */
     .dash {
-        max-width: 100%; /* Ajustar a largura máxima dos painéis de dashboard */
-        margin: 0 auto 20px; /* Centralizar e adicionar espaço entre os painéis */
-        padding: 20px; /* Reduzir o padding */
+        max-width: 100%; /* Define a largura máxima de cada dash para 100% */
+        margin-right: 0; /* Remove a margem direita para evitar que haja espaços vazios */
+        margin-bottom: 20px; /* Adiciona uma margem inferior para separar cada dash */
+        flex: 0 0 100%; /* Define a largura base de cada dash para 100% */
+    }
+
+    .dashboard {
+        flex-direction: column; /* Altera a direção do layout para empilhar os dashes verticalmente */
     }
 
     .dash h4 {
