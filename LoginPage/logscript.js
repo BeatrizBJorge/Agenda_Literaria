@@ -24,11 +24,12 @@ document.getElementById("loginForm").addEventListener("submit", function(event){
     //validação do login para demonstração
 
     // se o usuario e senha estiverem corretos, vai avançar para main page
-    if(usuario === "Admin" && senha === "admin1"){
-        alert("Login bem-sucedido! Redirecionando ...");
-        window.location.replace("../mainPage/mainpage.html")
-    }
-    else{
-        ("Usuario ou senha inválidos. Tente Novamente.");
+    if (usuario === "Admin" && senha === "admin1") {
+        swal("Login bem-sucedido!", "Redirecionando ...", "success")
+            .then((value) => {
+                window.location.replace("../mainPage/mainpage.html");
+            });
+    } else {
+        swal("Usuario ou senha inválidos.", "Tente Novamente.", "error");
     }
 })
