@@ -36,8 +36,8 @@ body{
 h3{
     color: #fff;
     font-size: 40px;
-    margin-left: 50px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 p{
@@ -45,6 +45,12 @@ p{
     font-size: 16px;
     text-align: justify;
     margin-bottom: 20px;
+}
+
+h4{
+    color: #fff;
+    font-size: 20px;
+    margin-left: 25px;
 }
 
 /* menu toggle*/
