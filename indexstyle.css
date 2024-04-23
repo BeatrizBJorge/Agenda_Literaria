@@ -91,3 +91,20 @@ h3{
     color: #000;
     /*text-decoration: dotted underline;*/
 }
+
+/* Media query 600px (mobile) */
+@media only screen and (max-width: 600px) {
+    .central {
+        padding: 20px; 
+    }
+
+    .entrar {
+        flex-direction: column;
+    }
+
+    .log,
+    .cad {
+        max-width: 100%; 
+        margin-bottom: 20px; 
+    }
+}
