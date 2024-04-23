@@ -97,6 +97,13 @@ body{
     text-align: left;
 }
 
+.foot{
+    font-size: 20px;
+    color: #fff;
+    padding: 10px;
+    background-color: #AEC3AE;
+    margin-bottom: 0;
+}
 
 /* Media query para dispositivos móveis */
 @media screen and (max-width: 600px) {
