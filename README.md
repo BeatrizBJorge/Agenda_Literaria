@@ -18,7 +18,8 @@ Guarde seus interesses literários em um só lugar!
 
 
 ### Nome do Projeto
-Agenda Literária
+Projeto: Agenda Literária  
+Matéria de Desenvolvimento de Software para a Web do 5º semestre do Bacharel de Ciências da Computação no Centro Universitário FMU
 
 ### Integrantes
 Turma: 191104A16 
