@@ -1,6 +1,6 @@
 # Agenda_Literaria
 Guarde seus interesses literários em um só lugar!  
-📖 📚 📗 
+📖 °❀⋆.ೃ࿔*:･📓 ✨ ⋆.ೃ࿔*:･
 
 ### Badges
 <img src="https://img.shields.io/badge/MDN_Web_Docs-black?style=for-the-badge&logo=mdnwebdocs&logoColor=white" /><br>
@@ -18,7 +18,7 @@ Guarde seus interesses literários em um só lugar!
 
 
 ### Nome do Projeto
-Projeto: Agenda Literária  
+Projeto:「 ✦ Agenda Literária ✦ 」  
 Matéria de Desenvolvimento de Software para a Web do 5º semestre do Bacharel de Ciências da Computação no Centro Universitário FMU
 
 ### Integrantes
