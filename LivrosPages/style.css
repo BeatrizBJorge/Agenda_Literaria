@@ -105,6 +105,16 @@ body{
     margin-bottom: 0;
 }
 
+.btn{
+    padding-left: 75px;
+}
+.ldash{
+    color: #fff;
+    background-color: #AEC3AE;
+    text-decoration: none;
+    padding: 10px;
+}
+
 /* Media query para dispositivos móveis */
 @media screen and (max-width: 600px) {
     .cima {
