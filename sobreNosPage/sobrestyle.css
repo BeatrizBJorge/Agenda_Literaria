@@ -189,10 +189,6 @@ h4{
         font-size: 14px; /* Reduzir o tamanho da fonte do parágrafo */
     }
 
-    iframe {
-        max-width: 100%; /* Garantir que o mapa do Google se ajuste à largura do contêiner */
-        height: 300px; /* Reduzir a altura do mapa */
-    }
 }
 
 /* Media query para dispositivos com largura máxima de 480px (exemplo de dispositivo móvel) */
