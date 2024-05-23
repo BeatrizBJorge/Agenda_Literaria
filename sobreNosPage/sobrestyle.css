@@ -53,12 +53,19 @@ h4{
     margin-left: 25px;
 }
 
+/*rodapé*/
+.footer{
+    margin-top: auto;
+}
 .foot{
-    font-size: 20px;
-    color: #fff;
-    padding: 10px;
+    padding: 10px 0px;
     background-color: #AEC3AE;
     margin-bottom: 0;
+}
+.foot p{
+    font-size: 20px;
+    color: #fff;
+    margin-left: 35px;
 }
 
 /* menu toggle*/

@@ -26,7 +26,7 @@ h3{
 .h4{
     color: #fff;
     font-size: 20px;
-    margin-left: 50px;
+    margin-left: 180px;
 }
 .central{
     padding: 50px;
@@ -110,12 +110,19 @@ h3{
     padding: 10px;
     border-radius: 10px;
 }
+/*rodapé*/
+.footer{
+    margin-top: auto;
+}
 .foot{
-    font-size: 20px;
-    color: #fff;
-    padding: 10px;
+    padding: 10px 0px;
     background-color: #AEC3AE;
     margin-bottom: 0;
+}
+.foot p{
+    font-size: 20px;
+    color: #fff;
+    margin-left: 35px;
 }
 
 /* menu toggle*/

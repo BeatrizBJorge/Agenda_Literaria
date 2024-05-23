@@ -97,22 +97,43 @@ body{
     text-align: left;
 }
 
+/*rodapé*/
+.footer{
+    margin-top: auto;
+}
 .foot{
-    font-size: 20px;
-    color: #fff;
-    padding: 10px;
+    padding: 10px 0px;
     background-color: #AEC3AE;
     margin-bottom: 0;
 }
-
-.btn{
-    padding-left: 75px;
-}
-.ldash{
+.foot p{
+    font-size: 20px;
     color: #fff;
-    background-color: #AEC3AE;
+    margin-left: 35px;
+}
+/*add a lista*/
+.btn{
+    padding-left: 5px;
+}
+.ldash-container {
+    display: flex;
+}
+.ldash, .ldash2, .ldash3 {
+    flex-grow: 1;
+    color: #fff;
     text-decoration: none;
     padding: 10px;
+    margin-right: 5px; /* ajuste o espaçamento entre os elementos, se necessário */
+}
+.ldash{
+    background-color: #AEC3AE;
+}
+.ldash2{
+    background-color: #FFCBDB;
+}
+.ldash3{
+    background-color: #FFEEF4;
+    color: #0d7e65;
 }
 
 /* Media query para dispositivos móveis */
