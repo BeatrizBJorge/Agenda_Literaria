@@ -32,20 +32,24 @@ h3{
 
 .dashboard{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    /*flex-wrap: wrap;*/
 }
 .dash{
     background-color: #e4e4d0;
-    padding: 50px;
-    max-width: 300px;
-    margin: 0 10px 10px 0;
+    padding: 20px;
+    /*max-width: 300px;*/
+    margin: 10px;
     border-radius: 10px;
-
-    flex: 0 0 calc(33.33% - 20px);
-    text-align: start;
-    display: flex;
     box-shadow: 8px 8px 5px #444;
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+        "title title"
+        "content content";
+    gap: 10px;
+    flex: calc(33% - 20px);
+    box-sizing: border-box;
     width: 700px;
     height: 450px;
     overflow: auto;
@@ -53,38 +57,44 @@ h3{
 
 .dash h4{
     font-size: 22px;
-    /*display: inline-block;
-    white-space: nowrap;*/
-    margin-bottom: 0;
+    grid-area: title;
+    text-align: center;
+    /*margin-bottom: -10px;*/
 }
-ul li img{
+
+.dash ul{
+    list-style: none;
+    padding: 0;
+    grid-area: content;
+    display: grid;
+    gap: 10px;
+}
+
+.dash li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.dash img{
+    width: 80px;
+    height: auto;
     border: 5px ridge #000;
     padding: 1px;
     box-shadow: 8px 8px 5px #444;
 }
-.lidos img, .lendo img {
-    width: 40%;
-    margin-top: 40px;
-    align-items: center;
-}
-.listaDesejo img{
-    width: 50%;
-    margin-top: 40px;
-    align-items: center;
-}
-.lidos ul, .lendo ul, .listaDesejo ul{
-    list-style: none;
-}
-.lidos p, .lendo p, .listaDesejo p{
-    font: small-caps 18px sans-serif;
-    text-align: left;
+
+.dash p{
+    font: small-caps 16px sans-serif;
 }
 
-.dash .bi-bookmark-check-fill, .dash .bi-bookmark-star-fill, .dash .bi-bookmark-heart-fill{
-    bottom: 0px;
-    width: 100px;
-    height: 30px;
+.dash .bi{
+    margin-right: -10px;
+    width: 24px;
+    height: 24px;
+    bottom: -2px;
 }
+
 
 .back{
     text-decoration: none;
@@ -94,12 +104,19 @@ ul li img{
     border-radius: 10px;
 }
 
+/*rodapé*/
+.footer{
+    margin-top: auto;
+}
 .foot{
-    font-size: 20px;
-    color: #fff;
-    padding: 10px;
+    padding: 10px 0px;
     background-color: #AEC3AE;
     margin-bottom: 0;
+}
+.foot p{
+    font-size: 20px;
+    color: #fff;
+    margin-left: 35px;
 }
 
 /* menu toggle*/
@@ -167,7 +184,7 @@ ul li img{
 {
   opacity: 1;
   transform: rotate(45deg) translate(-2px, -1px);
-  background: #005c49; /**/
+  background: #005c49; 
 }
 
 #menuToggle input:checked ~ span:nth-last-child(3)
