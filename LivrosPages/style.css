@@ -125,6 +125,11 @@ body{
     padding: 10px;
     margin-right: 5px; 
     border-radius: 9px;
+    font-size: medium;
+    font-family: "Tilt Neon", sans-serif;
+    text-align: start;
+    border: none; 
+    cursor: pointer;
 }
 .ldash{
     background-color: #AEC3AE;
