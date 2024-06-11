@@ -13,7 +13,7 @@ searchBar.addEventListener('keyup', (e)=> {
     });
     displayBooks(filteredBooks);
 });
-
+ 
 const loadBook = async () => {
     try {
         const res = await fetch('../ListaLivros/Livros.json');
