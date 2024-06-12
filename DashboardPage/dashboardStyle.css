@@ -127,6 +127,13 @@ h3{
     font-family: "Tilt Neon", sans-serif;
     border-radius: 10px;
 }
+.btnDel{
+    border: none;
+    background-color: #e4e4d0;
+    cursor: pointer;
+    position: relative;
+}
+
 
 /*rodapé*/
 .footer{
@@ -252,6 +259,13 @@ h3{
 
 /* Media query para dispositivos com largura máxima de 768px (tablet) */
 @media only screen and (max-width: 768px) {
+    #menuToggle {
+        display: block;
+        position: relative;
+    }
+    .sessao{
+        position: relative;
+    }
     .central {
         padding: 30px; 
         max-width: 100%; 
