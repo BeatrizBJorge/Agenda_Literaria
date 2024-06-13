@@ -203,6 +203,13 @@ h4{
 
 /* Media query para dispositivos com largura máxima de 768px (exemplo de tablet) */
 @media only screen and (max-width: 768px) {
+    #menuToggle {
+        display: block;
+        position: relative;
+    }
+    .sessao{
+        position: relative;
+    }
     .central {
         padding: 30px; /* Reduzir o padding */
     }
@@ -212,8 +219,9 @@ h4{
     }
 
     h3 {
-        font-size: 30px; /* Reduzir o tamanho da fonte do título */
+        font-size: 40px; /* Reduzir o tamanho da fonte do título */
         margin-left: 0; /* Remover a margem esquerda do título */
+        margin-bottom: -11px;
     }
 
     p {
@@ -228,6 +236,13 @@ h4{
 
 /* Media query para dispositivos com largura máxima de 480px (exemplo de dispositivo móvel) */
 @media only screen and (max-width: 480px) {
+    #menuToggle {
+        display: block;
+        position: relative;
+    }
+    .sessao{
+        position: relative;
+    }
     .central {
         padding: 20px; /* Reduzir ainda mais o padding */
     }
@@ -237,7 +252,8 @@ h4{
     }
 
     h3 {
-        font-size: 24px; /* Reduzir ainda mais o tamanho da fonte do título */
+        font-size: 30px; /* Reduzir ainda mais o tamanho da fonte do título */
+        margin-bottom: -10px;
     }
 
     p {

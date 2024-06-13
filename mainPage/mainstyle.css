@@ -257,6 +257,13 @@ h3{
 /* Fim do menu toggle */
 
 @media only screen and (max-width: 600px) {
+    #menuToggle {
+        display: block;
+        position: relative;
+    }
+    .sessao{
+        position: relative;
+    }
     .central {
         padding: 20px; 
     }
