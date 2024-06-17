@@ -32,4 +32,6 @@ Membros:
 Nosso objetivo é criar um ambiente onde os leitores podem armazenar os livros que já foram lidos, o que estão lendo atualmente e sua lista de desejos para leituras futuras.   
 
 ### Conheça nosso projeto
-https://beatrizbjorge.github.io/Agenda_Literaria/
+https://beatrizbjorge.github.io/Agenda_Literaria/  
+
+Para acessar o prjeto completo acesse: https://github.com/Nayu-mi/Projeto_AgendaLiteraria  
